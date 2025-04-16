@@ -1,6 +1,6 @@
 { 
    "name": "DREADED-AI", 
-   "version": "2.0.0", 
+   "version": "1.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
    "type": "commonjs", 
@@ -22,7 +22,8 @@
    "author": "Fortunatus/yusril", 
    "license": "MIT", 
    "dependencies": { 
-      "@whiskeysockets/baileys": "^6.4.0",
+      "@whiskeysockets/baileys": "^6.7.16", 
+      "dotenv"^16.4.5", 
      "@adiwajshing/keyed-db": "^0.2.4", 
      "@hapi/boom": "^10.0.0", 
     "badadvice": "^1.0.0",
