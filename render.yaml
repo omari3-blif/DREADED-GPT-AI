@@ -1,24 +1,14 @@
 services:
   - type: web
-    name: dreaded-gpt-ai
+    name: ben-whittaker-tech
     env: node
-    region: oregon
     plan: free
-    branch: main
     buildCommand: npm install
     startCommand: node index.js
-    autoDeploy: true
     envVars:
       - key: NODE_VERSION
         value: 18.18.2
-      - key: AUTO_TYPING
-        value: off
-      - key: AUTO_RECORDING
-        value: off
-      - key: DEV
-        value: 255760317060
-      - key: BOT_NAME
-        value: DREADED-GPT-AI
-      - key: OWNER_NAME
-        value: Ben Whittaker Tech
-      # Add more envVars below or connect to an .env file manually if private
+      - key: NODE_ENV
+        value: production
+      - key: TZ
+        value: Africa/Dar_es_Salaam
